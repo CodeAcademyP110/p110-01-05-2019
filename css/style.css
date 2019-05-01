@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+body{
+    /* background-color: #E0E1E1; */
+    height: 5000px;
+    /* color: white; */
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* FIRST TASK */
+/* #menu-aside{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background-color: #fff;
+    border: 1px solid #ababab;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.05s ease-out;
+}
+.brand-holder{
+    border-bottom: 1px solid #ababab;
+    height: 80px;
+}
+.page{
+    padding-left: 300px;
+    transition: all 0.05s ease-out;
+}
+.page.expanded{
+    padding-left: 80px;
+}
+#menu-aside nav>ul>li a{
+    display: inline-block;
+    padding: 15px 20px;
+    color: #72777a;
+    transition: all 0.3s ease-in;
+}
+#menu-aside nav>ul>li a:hover{
+   color: #313435;
+}
+#menu-aside nav>ul>li span{
+    margin-left: 20px;
+}
+
+#menu-aside nav>ul>li a:hover{
+    text-decoration: none;
+}
+
+#menu-aside.closed {
+    width: 80px;
+}
+#menu-aside.closed nav>ul>li span{
+    display: none;
+}
+
+.page header{
+    height: 80px;
+    border: 1px solid #ababab;
+    padding-left: 20px;
+}
+.toggler{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.toggler > i{
+    cursor: pointer;
+    font-size: 1.3em;
+    color: #72777a;
+} */
+
+.img-holder img{
+    max-width: 100%;
+}
+
+.tag-creator{
+    display: none;
+    padding: 15px;
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    background-color: #f0ebeb;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.37);
+    border-radius: 7px;
+}
+.tag-creator.active{
+    display: block;
+}
+.tag-creator .input-holder
+{
+    margin: 10px 0;
+}
+.tag{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
